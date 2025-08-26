@@ -1,0 +1,8 @@
+[build]
+builder = "dockerfile"
+dockerfile = "./WebApi-otica/Dockerfile"
+
+[deploy]
+startCommand = "dotnet WebApi-otica.dll"
+restartPolicy = "always"
+healthCheckPath = "/health"
