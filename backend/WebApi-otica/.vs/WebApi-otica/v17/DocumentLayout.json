@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\projeto-hk\\backend\\WebApi-otica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\appsettings.example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\appsettings.example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\webapi-otica.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\webapi-otica.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.example.json",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.example.json",
+              "RelativeDocumentMoniker": "WebApi-otica\\appsettings.example.json",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.example.json",
+              "RelativeToolTip": "WebApi-otica\\appsettings.example.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T16:39:41.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "WebApi-otica\\appsettings.Production.json",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.Production.json",
+              "RelativeToolTip": "WebApi-otica\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T16:38:49.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApi-otica\\appsettings.Development.json",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.Development.json",
+              "RelativeToolTip": "WebApi-otica\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T01:31:25.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi-otica\\appsettings.json",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.json",
+              "RelativeToolTip": "WebApi-otica\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-01T00:34:10.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApi-otica.csproj",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\WebApi-otica.csproj",
+              "RelativeDocumentMoniker": "WebApi-otica\\WebApi-otica.csproj",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\WebApi-otica.csproj",
+              "RelativeToolTip": "WebApi-otica\\WebApi-otica.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-22T00:23:59.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Program.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Program.cs",
+              "RelativeToolTip": "WebApi-otica\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T02:34:39.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Controllers\\ProdutoController.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "WebApi-otica\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:52:35.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "WebApi-otica\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T01:31:05.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApi-otica\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApi-otica\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T00:40:25.473Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
