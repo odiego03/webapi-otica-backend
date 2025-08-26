@@ -1,8 +1,8 @@
 [build]
-builder = "dockerfile"
-dockerfile = "./WebApi-otica/Dockerfile"
+builder = "NIXPACKS"
+buildCommand = "dotnet publish -c Release -o ./publish"
 
 [deploy]
-startCommand = "dotnet WebApi-otica.dll"
-restartPolicy = "always"
-healthCheckPath = "/health"
+numReplicas = 1
+startCommand = "dotnet ./publish/WebApi-otica.dll"
+restartPolicyType = "ON_FAILURE"
