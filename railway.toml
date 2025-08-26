@@ -1,0 +1,11 @@
+[build]
+builder = "NODE_JS"
+buildCommand = "dotnet publish -c Release -o ./publish"
+startCommand = "dotnet ./publish/WebApi-otica.dll"
+
+[build.environment]
+NODE_VERSION = "18"
+
+[deploy]
+numReplicas = 1
+restartPolicyType = "ON_FAILURE"
