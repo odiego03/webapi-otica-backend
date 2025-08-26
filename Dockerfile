@@ -1,5 +1,5 @@
 # Esta fase é usada durante a execução no VS no modo rápido
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+FROM docker.io/dotnet/aspnet:8.0 AS base
 USER app
 WORKDIR /app
 EXPOSE 8080
