@@ -3,7 +3,7 @@ builder = "NIXPACKS"
 buildCommand = "dotnet publish -c Release -o ./publish"
 
 [build.environment]
-DOTNET_VERSION =  "8.0.100-preview.5.23303.2"
+DOTNET_VERSION =  "8.0.403"
 ASPNETCORE_VERSION = "8.0"
 
 [deploy]
