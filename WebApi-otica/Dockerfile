@@ -1,11 +1,11 @@
 # Etapa de build e publish
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["WebApi-otica/WebApi-otica.csproj", "WebApi-otica/"]
-RUN dotnet restore "WebApi-otica/WebApi-otica.csproj"
+COPY ["WebApi-otica.csproj", "./"]
+RUN dotnet restore "./WebApi-otica.csproj"
 
 COPY . .
-WORKDIR "/src/WebApi-otica"
+WORKDIR "/src"
 RUN dotnet publish "WebApi-otica.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 # Runtime final
