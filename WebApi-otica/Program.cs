@@ -116,11 +116,10 @@ builder.Services.AddAutoMapper(typeof(WebApi_otica.Profiles.ProfileAutoMapper));
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 
 
