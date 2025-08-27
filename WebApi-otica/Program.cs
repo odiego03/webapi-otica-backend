@@ -112,30 +112,38 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 
-// Database - FORMA CORRETA para Railway
+// Database - Configuração segura
 var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL");
 
 if (string.IsNullOrEmpty(connectionString))
 {
     // Fallback para desenvolvimento local
     connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-    Console.WriteLine("⚠️ Usando connection string local (DefaultConnection)");
+    Console.WriteLine("⚠️ AVISO: DATABASE_URL não encontrada, usando fallback local");
 }
 
 Console.WriteLine($"🔍 Connection String presente: {!string.IsNullOrEmpty(connectionString)}");
 
 if (!string.IsNullOrEmpty(connectionString))
 {
-    builder.Services.AddDbContext<AppDbContext>(options =>
+    try
     {
-        options.UseNpgsql(connectionString);
-    });
-    Console.WriteLine("✅ Database configurado com sucesso");
+        builder.Services.AddDbContext<AppDbContext>(options =>
+        {
+            options.UseNpgsql(connectionString);
+        });
+        Console.WriteLine("✅ Database configurado com sucesso");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ Erro ao configurar database: {ex.Message}");
+        // Não crasha a aplicação - permite health checks
+    }
 }
 else
 {
-    Console.WriteLine("❌ ERRO: Nenhuma connection string encontrada");
-    // Não throw exception - a app pode subir sem DB para health checks
+    Console.WriteLine("⚠️ AVISO: Nenhuma connection string disponível");
+    // A aplicação sobe mesmo sem DB para health checks
 }
 
 // Identity e JWT
@@ -191,7 +199,36 @@ app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+Console.WriteLine("🔄 Verificando e aplicando migrations...");
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var dbContext = services.GetRequiredService<AppDbContext>();
 
+        // Verifica se existem migrations pendentes
+        var pendingMigrations = dbContext.Database.GetPendingMigrations();
+        if (pendingMigrations.Any())
+        {
+            Console.WriteLine($"📋 Migrations pendentes: {string.Join(", ", pendingMigrations)}");
+            dbContext.Database.Migrate();
+            Console.WriteLine("✅ Todas as migrations foram aplicadas!");
+        }
+        else
+        {
+            Console.WriteLine("✅ Nenhuma migration pendente");
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ Erro ao processar migrations: {ex.Message}");
+        // Não crasha a app - apenas registra o erro
+    }
+}
+
+Console.WriteLine($"✅ Aplicação iniciada na porta: {port}");
+Console.WriteLine($"🌐 Ambiente: {app.Environment.EnvironmentName}");
 Console.WriteLine($"✅ Aplicação iniciada na porta: {port}");
 Console.WriteLine($"🌐 Ambiente: {app.Environment.EnvironmentName}");
 
