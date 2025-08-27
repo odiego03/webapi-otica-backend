@@ -16,56 +16,72 @@ using WebApi_otica.Service.Tags;
 using WebApi_otica.Service.Variacao;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// LOGS DE DEBUG CRÍTICOS
+Console.WriteLine("🚀 Iniciando aplicação no Railway...");
+Console.WriteLine($"PORT: {Environment.GetEnvironmentVariable("PORT")}");
+Console.WriteLine($"ASPNETCORE_ENVIRONMENT: {Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}");
+
+// Configuração da porta do Railway
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+builder.WebHost.UseUrls($"http://*:{port}");
+
 builder.Host.ConfigureLogging(logging =>
 {
     logging.ClearProviders();
     logging.AddConsole();
 });
 
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-builder.WebHost.ConfigureKestrel(options =>
-{
-    options.ListenAnyIP(int.Parse(port));
-});
-
 builder.Services.AddHealthChecks();
-
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("PermitirFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:3000", "http://localhost:5173", "http://localhost:3001", "http://localhost:5170") // <- origem do front
+        policy.WithOrigins("http://localhost:3000", "http://localhost:5173", "http://localhost:3001", "http://localhost:5170")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
 });
-
-// Add services to the container.
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
     options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
 });
+
+// AWS S3 com fallback seguro
 builder.Services.AddSingleton<IAmazonS3>(sp =>
 {
-    var accessKey = builder.Configuration["AWS:AccessKeyId"];
-    var secretKey = builder.Configuration["AWS:SecretAccessKey"];
-    var region = builder.Configuration["AWS:Region"] ?? "USEast2";
-
-    if (string.IsNullOrEmpty(accessKey) || string.IsNullOrEmpty(secretKey))
-        throw new Exception("⚠️ Variáveis AWS não definidas!");
-
-    var config = new AmazonS3Config
+    try
     {
-        RegionEndpoint = Amazon.RegionEndpoint.GetBySystemName(region)
-    };
+        var accessKey = Environment.GetEnvironmentVariable("AWS_ACCESS_KEY_ID");
+        var secretKey = Environment.GetEnvironmentVariable("AWS_SECRET_ACCESS_KEY");
+        var region = Environment.GetEnvironmentVariable("AWS_REGION") ?? "us-east-2";
 
-    return new AmazonS3Client(accessKey, secretKey, config);
+        Console.WriteLine($"🔍 AWS AccessKey presente: {!string.IsNullOrEmpty(accessKey)}");
+        Console.WriteLine($"🔍 AWS SecretKey presente: {!string.IsNullOrEmpty(secretKey)}");
+
+        if (string.IsNullOrEmpty(accessKey) || string.IsNullOrEmpty(secretKey))
+        {
+            Console.WriteLine("⚠️ AVISO: Variáveis AWS não configuradas - usando modo fallback");
+            return null; // ou criar um client mock
+        }
+
+        var config = new AmazonS3Config
+        {
+            RegionEndpoint = Amazon.RegionEndpoint.GetBySystemName(region)
+        };
+
+        return new AmazonS3Client(accessKey, secretKey, config);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ Erro ao configurar S3: {ex.Message}");
+        return null;
+    }
 });
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -76,9 +92,7 @@ builder.Services.AddSwaggerGen(options =>
         Scheme = "Bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "JWT authorization header using the Bearer scheme." +
-        " \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below." +
-        " \r\n\r\r Exemple: \"Bearer 12345abcdef\" ",
+        Description = "JWT authorization header using the Bearer scheme.",
     });
 
     options.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -97,46 +111,72 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Database - FORMA CORRETA para Railway
+var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL");
+
 if (string.IsNullOrEmpty(connectionString))
-    throw new Exception("⚠️ Variável DefaultConnection não definida!");
-
-builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseNpgsql(connectionString);
-});
+    // Fallback para desenvolvimento local
+    connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    Console.WriteLine("⚠️ Usando connection string local (DefaultConnection)");
+}
 
+Console.WriteLine($"🔍 Connection String presente: {!string.IsNullOrEmpty(connectionString)}");
 
+if (!string.IsNullOrEmpty(connectionString))
+{
+    builder.Services.AddDbContext<AppDbContext>(options =>
+    {
+        options.UseNpgsql(connectionString);
+    });
+    Console.WriteLine("✅ Database configurado com sucesso");
+}
+else
+{
+    Console.WriteLine("❌ ERRO: Nenhuma connection string encontrada");
+    // Não throw exception - a app pode subir sem DB para health checks
+}
+
+// Identity e JWT
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        options.TokenValidationParameters = new TokenValidationParameters
+
+var jwtKey = Environment.GetEnvironmentVariable("JWT_KEY") ?? builder.Configuration["Jwt:Key"];
+Console.WriteLine($"🔍 JWT Key presente: {!string.IsNullOrEmpty(jwtKey)}");
+
+if (!string.IsNullOrEmpty(jwtKey))
+{
+    builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+        .AddJwtBearer(options =>
         {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = builder.Configuration["Jwt:Issuer"],
-            ValidAudience = builder.Configuration["Jwt:Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(builder.Configuration["Jwt:key"]))
-        };
-    });
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                ValidIssuer = Environment.GetEnvironmentVariable("JWT_ISSUER") ?? builder.Configuration["Jwt:Issuer"],
+                ValidAudience = Environment.GetEnvironmentVariable("JWT_AUDIENCE") ?? builder.Configuration["Jwt:Audience"],
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
+            };
+        });
+}
 
-
+// Services
 builder.Services.AddScoped<IAutenticacao, AuthenticateService>();
 builder.Services.AddScoped<IProdutoService, ProdutoService>();
 builder.Services.AddScoped<IImagemService, ImagemService>();
 builder.Services.AddScoped<IVariacaoService, VariacaoService>();
 builder.Services.AddScoped<IColecoesService, ColecoesService>();
 builder.Services.AddScoped<ITagService, TagService>();
-
 builder.Services.AddAutoMapper(typeof(WebApi_otica.Profiles.ProfileAutoMapper));
 
 var app = builder.Build();
+
+// Middleware pipeline
+Console.WriteLine("✅ Build completo - Configurando middleware...");
 
 if (app.Environment.IsDevelopment())
 {
@@ -144,17 +184,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
-
 app.MapHealthChecks("/health");
 app.UseRouting();
-//app.UseHttpsRedirection();
 app.UseCors("PermitirFrontend");
 app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
 
+Console.WriteLine($"✅ Aplicação iniciada na porta: {port}");
+Console.WriteLine($"🌐 Ambiente: {app.Environment.EnvironmentName}");
 
 app.Run();
