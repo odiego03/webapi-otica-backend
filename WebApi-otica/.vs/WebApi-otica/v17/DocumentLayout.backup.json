@@ -1,42 +1,182 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\web-api-hk\\backend\\WebApi-otica\\",
+  "WorkspaceRootPath": "E:\\projeto-hk\\backend\\WebApi-otica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\web-api-hk\\backend\\webapi-otica\\webapi-otica\\appsettings.example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\appsettings.example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\web-api-hk\\backend\\webapi-otica\\webapi-otica\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\web-api-hk\\backend\\webapi-otica\\webapi-otica\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\web-api-hk\\backend\\webapi-otica\\webapi-otica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\web-api-hk\\backend\\webapi-otica\\webapi-otica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\web-api-hk\\backend\\webapi-otica\\webapi-otica\\webapi-otica.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\controllers\\variacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\controllers\\variacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\controllers\\imagenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\controllers\\imagenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\service\\colecoesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\service\\colecoesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\webapi-otica.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\webapi-otica.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\web-api-hk\\backend\\webapi-otica\\webapi-otica\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\service\\imagens\\imagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\service\\imagens\\imagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\service\\variacao\\variacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\service\\variacao\\variacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\service\\variacao\\ivariacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\service\\variacao\\ivariacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\web-api-hk\\backend\\webapi-otica\\webapi-otica\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\variacao\\variacaomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\variacao\\variacaomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\variacao\\variacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\variacao\\variacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\variacao\\variacaoadminmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\variacao\\variacaoadminmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\variacao\\variacaoadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\variacao\\variacaoadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\pruduto\\vizualizar\\vizualizarvariacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\pruduto\\vizualizar\\vizualizarvariacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\service\\tags\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\service\\tags\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\service\\tags\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\service\\tags\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\paginacao\\paginacaoresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\paginacao\\paginacaoresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\model\\produto\\variacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\model\\produto\\variacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\service\\produto\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\service\\produto\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\service\\produto\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\service\\produto\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\pruduto\\produtoresumodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\pruduto\\produtoresumodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\paginacao\\filtropaginacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\paginacao\\filtropaginacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\migrations\\20250530142509_addslug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\migrations\\20250530142509_addslug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\web-api-hk\\backend\\webapi-otica\\webapi-otica\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\model\\produto\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\model\\produto\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\service\\icolecoesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\service\\icolecoesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\controllers\\colecoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\controllers\\colecoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\colecoes\\colecaosimplesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\colecoes\\colecaosimplesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\colecoes\\colecaodetalhadadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\colecoes\\colecaodetalhadadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\model\\colecoesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\model\\colecoesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\pruduto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\pruduto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\migrations\\20250519230534_renomeardesccolocaoparadesccolecao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\migrations\\20250519230534_renomeardesccolocaoparadesccolecao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\colecoes\\criarcolecaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\colecoes\\criarcolecaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\profiles\\profileautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\profiles\\profileautomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\pruduto\\criar\\criarvariacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\pruduto\\criar\\criarvariacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\pruduto\\criar\\criarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\pruduto\\criar\\criarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\service\\imagens\\iimagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\service\\imagens\\iimagemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\pruduto\\editar\\editarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\pruduto\\editar\\editarprodutodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\pruduto\\editar\\editarvariacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\pruduto\\editar\\editarvariacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\dto\\pruduto\\editar\\editarimagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\dto\\pruduto\\editar\\editarimagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|e:\\projeto-hk\\backend\\webapi-otica\\webapi-otica\\migrations\\20250604230221_slugadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76E68272-6953-463F-9D1F-6A9CB1979359}|WebApi-otica\\WebApi-otica.csproj|solutionrelative:webapi-otica\\migrations\\20250604230221_slugadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +186,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,84 +194,125 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.example.json",
-              "DocumentMoniker": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.example.json",
-              "RelativeDocumentMoniker": "WebApi-otica\\appsettings.example.json",
-              "ToolTip": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.example.json",
-              "RelativeToolTip": "WebApi-otica\\appsettings.example.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-26T16:39:41.673Z",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Program.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Program.cs",
+              "RelativeToolTip": "WebApi-otica\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T02:34:39.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Production.json",
-              "DocumentMoniker": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.Production.json",
-              "RelativeDocumentMoniker": "WebApi-otica\\appsettings.Production.json",
-              "ToolTip": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.Production.json",
-              "RelativeToolTip": "WebApi-otica\\appsettings.Production.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-26T16:38:49.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WebApi-otica\\appsettings.Development.json",
-              "ToolTip": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.Development.json",
-              "RelativeToolTip": "WebApi-otica\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-26T01:31:25.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.json",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.json",
               "RelativeDocumentMoniker": "WebApi-otica\\appsettings.json",
-              "ToolTip": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.json",
-              "RelativeToolTip": "WebApi-otica\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\appsettings.json*",
+              "RelativeToolTip": "WebApi-otica\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-01T00:34:10.997Z"
+              "WhenOpened": "2025-08-01T00:34:10.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "WebApi-otica.csproj",
-              "DocumentMoniker": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\WebApi-otica.csproj",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\WebApi-otica.csproj",
               "RelativeDocumentMoniker": "WebApi-otica\\WebApi-otica.csproj",
-              "ToolTip": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\WebApi-otica.csproj",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\WebApi-otica.csproj",
               "RelativeToolTip": "WebApi-otica\\WebApi-otica.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwB4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-22T00:23:59.401Z"
+              "WhenOpened": "2025-04-22T00:23:59.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VariacaoService.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Variacao\\VariacaoService.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Service\\Variacao\\VariacaoService.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Variacao\\VariacaoService.cs",
+              "RelativeToolTip": "WebApi-otica\\Service\\Variacao\\VariacaoService.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAawCEBAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T17:26:00.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImagensController.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\ImagensController.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Controllers\\ImagensController.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\ImagensController.cs",
+              "RelativeToolTip": "WebApi-otica\\Controllers\\ImagensController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:15:42.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VariacaoController.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\VariacaoController.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Controllers\\VariacaoController.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\VariacaoController.cs",
+              "RelativeToolTip": "WebApi-otica\\Controllers\\VariacaoController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:28:07.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IVariacaoService.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Variacao\\IVariacaoService.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Service\\Variacao\\IVariacaoService.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Variacao\\IVariacaoService.cs",
+              "RelativeToolTip": "WebApi-otica\\Service\\Variacao\\IVariacaoService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wBQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:14:59.144Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi-otica\\Program.cs",
-              "ToolTip": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\Program.cs",
-              "RelativeToolTip": "WebApi-otica\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwCwAAAA2AAAAAAAAAA==",
+              "Title": "ColecoesService.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\ColecoesService.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Service\\ColecoesService.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\ColecoesService.cs",
+              "RelativeToolTip": "WebApi-otica\\Service\\ColecoesService.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwG0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T02:34:39.739Z"
+              "WhenOpened": "2025-04-22T18:35:46.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ImagemService.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Imagens\\ImagemService.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Service\\Imagens\\ImagemService.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Imagens\\ImagemService.cs",
+              "RelativeToolTip": "WebApi-otica\\Service\\Imagens\\ImagemService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T02:29:40.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ProdutoController.cs",
-              "DocumentMoniker": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\ProdutoController.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "WebApi-otica\\Controllers\\ProdutoController.cs",
-              "ToolTip": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\ProdutoController.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "WebApi-otica\\Controllers\\ProdutoController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAowFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,11 +320,143 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "VariacaoMapper.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Variacao\\VariacaoMapper.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Variacao\\VariacaoMapper.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Variacao\\VariacaoMapper.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Variacao\\VariacaoMapper.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T18:02:04.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VariacaoAdminDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Variacao\\VariacaoAdminDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Variacao\\VariacaoAdminDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Variacao\\VariacaoAdminDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Variacao\\VariacaoAdminDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T15:35:09.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VariacaoDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Variacao\\VariacaoDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Variacao\\VariacaoDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Variacao\\VariacaoDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Variacao\\VariacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:19:56.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VariacaoAdminMapper.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Variacao\\VariacaoAdminMapper.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Variacao\\VariacaoAdminMapper.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Variacao\\VariacaoAdminMapper.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Variacao\\VariacaoAdminMapper.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwBsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T15:35:54.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VizualizarVariacaoDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Vizualizar\\VizualizarVariacaoDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Pruduto\\Vizualizar\\VizualizarVariacaoDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Vizualizar\\VizualizarVariacaoDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Pruduto\\Vizualizar\\VizualizarVariacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:20:27.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VariacaoModel.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Model\\Produto\\VariacaoModel.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Model\\Produto\\VariacaoModel.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Model\\Produto\\VariacaoModel.cs",
+              "RelativeToolTip": "WebApi-otica\\Model\\Produto\\VariacaoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T02:35:19.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaginacaoResultado.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Paginacao\\PaginacaoResultado.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Paginacao\\PaginacaoResultado.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Paginacao\\PaginacaoResultado.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Paginacao\\PaginacaoResultado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T17:29:36.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Tags\\TagService.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Service\\Tags\\TagService.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Tags\\TagService.cs",
+              "RelativeToolTip": "WebApi-otica\\Service\\Tags\\TagService.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwFsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T03:52:05.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Controllers\\TagController.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\TagController.cs",
+              "RelativeToolTip": "WebApi-otica\\Controllers\\TagController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T03:52:38.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Produto\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Service\\Produto\\IProdutoService.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Produto\\IProdutoService.cs",
+              "RelativeToolTip": "WebApi-otica\\Service\\Produto\\IProdutoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T00:02:13.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Produto\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Service\\Produto\\ProdutoService.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Produto\\ProdutoService.cs",
+              "RelativeToolTip": "WebApi-otica\\Service\\Produto\\ProdutoService.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAD4v5cAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:43:15.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApi-otica\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Data\\AppDbContext.cs",
               "RelativeToolTip": "WebApi-otica\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAuwBkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -151,11 +464,263 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
+              "Title": "ITagService.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Tags\\ITagService.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Service\\Tags\\ITagService.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Tags\\ITagService.cs",
+              "RelativeToolTip": "WebApi-otica\\Service\\Tags\\ITagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T03:52:22.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProdutoResumoDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\ProdutoResumoDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Pruduto\\ProdutoResumoDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\ProdutoResumoDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Pruduto\\ProdutoResumoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T02:38:03.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FiltroPaginacaoDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Paginacao\\FiltroPaginacaoDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Paginacao\\FiltroPaginacaoDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Paginacao\\FiltroPaginacaoDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Paginacao\\FiltroPaginacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T02:40:10.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250530142509_addSlug.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Migrations\\20250530142509_addSlug.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Migrations\\20250530142509_addSlug.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Migrations\\20250530142509_addSlug.cs",
+              "RelativeToolTip": "WebApi-otica\\Migrations\\20250530142509_addSlug.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T14:25:09.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProdutosModel.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Model\\Produto\\ProdutosModel.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Model\\Produto\\ProdutosModel.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Model\\Produto\\ProdutosModel.cs",
+              "RelativeToolTip": "WebApi-otica\\Model\\Produto\\ProdutosModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T14:37:57.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IColecoesService.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\IColecoesService.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Service\\IColecoesService.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\IColecoesService.cs",
+              "RelativeToolTip": "WebApi-otica\\Service\\IColecoesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T18:34:24.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ColecaoDetalhadaDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Colecoes\\ColecaoDetalhadaDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Colecoes\\ColecaoDetalhadaDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Colecoes\\ColecaoDetalhadaDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Colecoes\\ColecaoDetalhadaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:55:34.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ColecoesModel.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Model\\ColecoesModel.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Model\\ColecoesModel.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Model\\ColecoesModel.cs",
+              "RelativeToolTip": "WebApi-otica\\Model\\ColecoesModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:51:25.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ColecaoSimplesDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Colecoes\\ColecaoSimplesDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Colecoes\\ColecaoSimplesDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Colecoes\\ColecaoSimplesDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Colecoes\\ColecaoSimplesDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvwkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:55:46.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ColecoesController.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\ColecoesController.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Controllers\\ColecoesController.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Controllers\\ColecoesController.cs",
+              "RelativeToolTip": "WebApi-otica\\Controllers\\ColecoesController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwCIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:32:54.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20250604230221_slugAdd.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Migrations\\20250604230221_slugAdd.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Migrations\\20250604230221_slugAdd.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Migrations\\20250604230221_slugAdd.cs",
+              "RelativeToolTip": "WebApi-otica\\Migrations\\20250604230221_slugAdd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T23:02:22.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ProdutoDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\ProdutoDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Pruduto\\ProdutoDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\ProdutoDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Pruduto\\ProdutoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T01:48:32.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CriarColecaoDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Colecoes\\CriarColecaoDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Colecoes\\CriarColecaoDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Colecoes\\CriarColecaoDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Colecoes\\CriarColecaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:48:46.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250519230534_RenomearDescColocaoParaDescColecao.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Migrations\\20250519230534_RenomearDescColocaoParaDescColecao.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Migrations\\20250519230534_RenomearDescColocaoParaDescColecao.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Migrations\\20250519230534_RenomearDescColocaoParaDescColecao.cs",
+              "RelativeToolTip": "WebApi-otica\\Migrations\\20250519230534_RenomearDescColocaoParaDescColecao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T23:05:34.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProfileAutoMapper.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Profiles\\ProfileAutoMapper.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Profiles\\ProfileAutoMapper.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Profiles\\ProfileAutoMapper.cs",
+              "RelativeToolTip": "WebApi-otica\\Profiles\\ProfileAutoMapper.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:26:23.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CriarVariacaoDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Criar\\CriarVariacaoDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Pruduto\\Criar\\CriarVariacaoDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Criar\\CriarVariacaoDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Pruduto\\Criar\\CriarVariacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T15:22:17.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CriarProdutoDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Criar\\CriarProdutoDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Pruduto\\Criar\\CriarProdutoDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Criar\\CriarProdutoDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Pruduto\\Criar\\CriarProdutoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T23:55:29.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IImagemService.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Imagens\\IImagemService.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Service\\Imagens\\IImagemService.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Service\\Imagens\\IImagemService.cs",
+              "RelativeToolTip": "WebApi-otica\\Service\\Imagens\\IImagemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T02:29:21.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EditarImagemDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Editar\\EditarImagemDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Pruduto\\Editar\\EditarImagemDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Editar\\EditarImagemDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Pruduto\\Editar\\EditarImagemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:20:09.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EditarVariacaoDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Editar\\EditarVariacaoDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Pruduto\\Editar\\EditarVariacaoDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Editar\\EditarVariacaoDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Pruduto\\Editar\\EditarVariacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:33:10.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EditarProdutoDto.cs",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Editar\\EditarProdutoDto.cs",
+              "RelativeDocumentMoniker": "WebApi-otica\\Dto\\Pruduto\\Editar\\EditarProdutoDto.cs",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Dto\\Pruduto\\Editar\\EditarProdutoDto.cs",
+              "RelativeToolTip": "WebApi-otica\\Dto\\Pruduto\\Editar\\EditarProdutoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T14:32:32.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\Properties\\launchSettings.json",
+              "DocumentMoniker": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApi-otica\\Properties\\launchSettings.json",
-              "ToolTip": "E:\\web-api-hk\\backend\\WebApi-otica\\WebApi-otica\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\projeto-hk\\backend\\WebApi-otica\\WebApi-otica\\Properties\\launchSettings.json",
               "RelativeToolTip": "WebApi-otica\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
