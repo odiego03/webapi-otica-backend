@@ -1,4 +1,4 @@
-using Amazon.S3;
+﻿using Amazon.S3;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -18,9 +18,13 @@ using WebApi_otica.Service.Variacao;
 var builder = WebApplication.CreateBuilder(args);
 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-builder.WebHost.UseUrls($"http://*:{port}");
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(int.Parse(port));
+});
 
 builder.Services.AddHealthChecks();
+
 
 builder.Services.AddCors(options =>
 {
@@ -41,18 +45,21 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 });
 builder.Services.AddSingleton<IAmazonS3>(sp =>
 {
-    // Obtenha as chaves do appsettings.json
     var accessKey = builder.Configuration["AWS:AccessKeyId"];
     var secretKey = builder.Configuration["AWS:SecretAccessKey"];
+    var region = builder.Configuration["AWS:Region"] ?? "USEast2";
+
+    if (string.IsNullOrEmpty(accessKey) || string.IsNullOrEmpty(secretKey))
+        throw new Exception("⚠️ Variáveis AWS não definidas!");
 
     var config = new AmazonS3Config
     {
-        RegionEndpoint = Amazon.RegionEndpoint.USEast2
+        RegionEndpoint = Amazon.RegionEndpoint.GetBySystemName(region)
     };
 
-    // Passe as credenciais para o cliente
     return new AmazonS3Client(accessKey, secretKey, config);
 });
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -85,10 +92,15 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+if (string.IsNullOrEmpty(connectionString))
+    throw new Exception("⚠️ Variável DefaultConnection não definida!");
+
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseNpgsql(connectionString);
 });
+
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
