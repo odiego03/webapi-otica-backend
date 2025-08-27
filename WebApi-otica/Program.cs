@@ -232,4 +232,26 @@ Console.WriteLine($"🌐 Ambiente: {app.Environment.EnvironmentName}");
 Console.WriteLine($"✅ Aplicação iniciada na porta: {port}");
 Console.WriteLine($"🌐 Ambiente: {app.Environment.EnvironmentName}");
 
-app.Run();
+// 🔥 ENVOLVA TUDO EM TRY/CATCH GLOBAL
+try
+{
+    Console.WriteLine($"🚀 Iniciando aplicação na porta: {port}");
+    app.Run();
+}
+catch (Exception ex)
+{
+    // 🔥 LOG DETALHADO DO ERRO REAL
+    Console.WriteLine($"❌ ERRO CRÍTICO DURANTE INICIALIZAÇÃO: {ex.GetType().Name}");
+    Console.WriteLine($"📋 Mensagem: {ex.Message}");
+    Console.WriteLine($"🔍 StackTrace: {ex.StackTrace}");
+
+    if (ex.InnerException != null)
+    {
+        Console.WriteLine($"🔍 Inner Exception: {ex.InnerException.GetType().Name}");
+        Console.WriteLine($"📋 Inner Message: {ex.InnerException.Message}");
+    }
+
+    // Mantém o container vivo para investigação
+    Console.WriteLine("💤 Container mantido vivo para investigação...");
+    Thread.Sleep(Timeout.Infinite);
+}
