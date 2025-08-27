@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: webapi-otica
+    env: docker
+    plan: free
+    branch: main
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        value: Host=mainline.proxy.rlwy.net;Port=58291;Database=railway;Username=postgres;Password=UoIWFqFWheRTFSkAGebhsUdgOPePfXMk;SSL Mode=Disable
+      - key: AWS__AccessKeyId
+        value: AKIA4ACLXDRH5FM3ZHAG
+      - key: AWS__SecretAccessKey
+        value: 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
+      - key: AWS__Region
+        value: us-east-2
+      - key: Jwt__Key
+        value: sua_chave_super_forte_32chars
+      - key: Jwt__Issuer
+        value: https://webapi-otica.onrender.com
+      - key: Jwt__Audience
+        value: https://webapi-otica.onrender.com
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
