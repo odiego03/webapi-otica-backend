@@ -76,7 +76,7 @@ namespace WebApi_otica.Service
                 await _s3Client.PutObjectAsync(request);
 
                 // Gera a URL pública da imagem no S3
-                var urlPublica = $"https://{BucketName}.s3.sa-east-1.amazonaws.com/{caminhoNoBucket}";
+                var urlPublica = $"https://{BucketName}.s3.us-east-2.amazonaws.com/{caminhoNoBucket}";
                 return urlPublica; // Retorna a URL completa do S3
             }
             catch (Exception ex)
@@ -86,25 +86,25 @@ namespace WebApi_otica.Service
         }
         public async Task<bool> ExcluirImgColecao(string urlImagem)
         {
-            // Extrai o nome do arquivo da URL do S3
-            var uri = new Uri(urlImagem);
-            var caminhoNoBucket = uri.AbsolutePath.TrimStart('/');
-
             try
             {
-                var deleteRequest = new DeleteObjectRequest
-                {
-                    BucketName = BucketName,
-                    Key = caminhoNoBucket
-                };
+                if (string.IsNullOrEmpty(urlImagem))
+                    return false;
 
-                await _s3Client.DeleteObjectAsync(deleteRequest);
+                var uri = new Uri(urlImagem);
+                var caminhoNoBucket = uri.AbsolutePath.TrimStart('/');
+
+                await _s3Client.DeleteObjectAsync(BucketName, caminhoNoBucket);
                 return true;
             }
             catch (AmazonS3Exception ex)
             {
-                // Log do erro se necessário
-                Console.WriteLine($"Erro ao excluir imagem do S3: {ex.Message}");
+                Console.WriteLine($"Erro S3 ao excluir {urlImagem}: {ex.ErrorCode} - {ex.Message}");
+                return false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao excluir imagem: {ex.Message}");
                 return false;
             }
         }

@@ -8,7 +8,7 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: ConnectionStrings__DefaultConnection
-        value: Host=mainline.proxy.rlwy.net;Port=58291;Database=railway;Username=postgres;Password=UoIWFqFWheRTFSkAGebhsUdgOPePfXMk;SSL Mode=Disable
+        value: Host=dpg-d2nk7ojipnbc73bikutg-a.oregon-postgres.render.com;Port=5432;Database=db_webapi_otica;Username=db_webapi_otica_user;Password=M1wAQFV1hEh8iHvM0coa2HWsSpZNbTPm;SSL Mode=Require;Trust Server Certificate=true;
       - key: AWS__AccessKeyId
         value: AKIA4ACLXDRH5FM3ZHAG
       - key: AWS__SecretAccessKey

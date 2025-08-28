@@ -25,11 +25,15 @@ namespace WebApi_otica.Service.Imagens
 
         public async Task ExcluirImagemFisicaAsync(string urlImagem)
         {
-            var uri = new Uri(urlImagem);
-            var caminhoNoBucket = uri.AbsolutePath.TrimStart('/');
-
             try
             {
+                var uri = new Uri(urlImagem);
+
+                // Extrai o caminho completo sem a barra inicial
+                var caminhoNoBucket = uri.AbsolutePath.TrimStart('/');
+
+                Console.WriteLine($"Excluindo do S3 - Bucket: {BucketName}, Key: {caminhoNoBucket}");
+
                 var deleteRequest = new DeleteObjectRequest
                 {
                     BucketName = BucketName,
@@ -37,11 +41,16 @@ namespace WebApi_otica.Service.Imagens
                 };
 
                 await _s3Client.DeleteObjectAsync(deleteRequest);
+                Console.WriteLine($"✅ Imagem excluída: {caminhoNoBucket}");
             }
             catch (AmazonS3Exception ex)
             {
-                // Log do erro se necessário
-                Console.WriteLine($"Erro ao excluir imagem do S3: {ex.Message}");
+                Console.WriteLine($"❌ Erro S3: {ex.Message}");
+                Console.WriteLine($"Error Code: {ex.ErrorCode}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Erro geral: {ex.Message}");
             }
         }
 
@@ -64,7 +73,7 @@ namespace WebApi_otica.Service.Imagens
                 await _s3Client.PutObjectAsync(request);
 
                 // Gera a URL pública da imagem no S3
-                var urlPublica = $"https://{BucketName}.s3.sa-east-1.amazonaws.com/{caminhoNoBucket}";
+                var urlPublica = $"https://{BucketName}.s3.us-east-2.amazonaws.com/{caminhoNoBucket}";
 
                 return new ImagensProdModel
                 {
