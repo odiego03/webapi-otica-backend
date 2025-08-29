@@ -6,20 +6,4 @@ services:
     branch: main
     region: oregon
     dockerfilePath: ./Dockerfile
-    envVars:
-      - key: ConnectionStrings__DefaultConnection
-        value: Host=dpg-d2nk7ojipnbc73bikutg-a.oregon-postgres.render.com;Port=5432;Database=db_webapi_otica;Username=db_webapi_otica_user;Password=M1wAQFV1hEh8iHvM0coa2HWsSpZNbTPm;SSL Mode=Require;Trust Server Certificate=true;
-      - key: AWS__AccessKeyId
-        value: AKIA4ACLXDRH5FM3ZHAG
-      - key: AWS__SecretAccessKey
-        value: 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
-      - key: AWS__Region
-        value: us-east-2
-      - key: Jwt__Key
-        value: sua_chave_super_forte_32chars
-      - key: Jwt__Issuer
-        value: https://webapi-otica.onrender.com
-      - key: Jwt__Audience
-        value: https://webapi-otica.onrender.com
-      - key: ASPNETCORE_ENVIRONMENT
-        value: Production
+    
