@@ -21,9 +21,10 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("PermitirFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:3000", "http://localhost:5173", "http://localhost:3001", "http://localhost:5170") // <- origem do front
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy.WithOrigins("https://hkeye.netlify.app")
+      .AllowAnyHeader()
+      .AllowAnyMethod()
+      .AllowCredentials();  // ✅ Adicione esta linha
     });
 });
 
